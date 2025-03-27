@@ -28,7 +28,7 @@ This repository contains the configuration for a Dynamic Multipoint VPN (DMVPN) 
 ## Prerequisites
 - Cisco IOS devices supporting DMVPN Phase 3
 - IKEv2 capability
-- EIGRP or OSPF for dynamic routing
+- OSPF for dynamic routing
 - IPsec for tunnel encryption
 
 ## Configuration Steps
@@ -36,7 +36,7 @@ This repository contains the configuration for a Dynamic Multipoint VPN (DMVPN) 
 2. Set up DMVPN tunnel interfaces
 3. Configure IPsec protection
 4. Implement dynamic routing
-5. Apply QoS and security policies
+
 
 ## Recommended Security Measures
 - Use strong authentication methods
@@ -48,7 +48,7 @@ This repository contains the configuration for a Dynamic Multipoint VPN (DMVPN) 
 - Verify tunnel connectivity
 - Check IKEv2 negotiation
 - Monitor routing tables
-- Validate NAT traversal settings
+
 
 ## Contributing
 Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
