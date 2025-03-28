@@ -22,7 +22,6 @@ This repository contains the configuration for a Dynamic Multipoint VPN (DMVPN) 
 ## Key Configuration Features
 - DMVPN Phase 3 allows dynamic spoke-to-spoke tunneling
 - IKEv2 for enhanced security and authentication
-- Redundant hub design for high availability
 - Dynamic routing support
 
 ## Prerequisites
@@ -41,7 +40,6 @@ This repository contains the configuration for a Dynamic Multipoint VPN (DMVPN) 
 ## Recommended Security Measures
 - Use strong authentication methods
 - Implement IPsec encryption
-- Configure route filtering
 - Use access lists to control traffic
 
 ## Troubleshooting
@@ -49,9 +47,6 @@ This repository contains the configuration for a Dynamic Multipoint VPN (DMVPN) 
 - Check IKEv2 negotiation
 - Monitor routing tables
 
-
-## Contributing
-Please read CONTRIBUTING.md for details on our code of conduct and the process for submitting pull requests.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
